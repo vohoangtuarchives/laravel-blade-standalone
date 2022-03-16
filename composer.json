@@ -1,0 +1,17 @@
+{
+    "name": "vohoangtu0409/laravel-blade-standalone",
+    "autoload": {
+        "psr-4": {
+            "Tuezy\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Hoang Tu",
+            "email": "tuvo@pandavietnamsoftware.com"
+        }
+    ],
+    "require": {
+        "illuminate/view": "^8.83"
+    }
+}
