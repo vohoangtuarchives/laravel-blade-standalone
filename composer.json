@@ -7,19 +7,19 @@
     },
     "authors": [
         {
-            "name": "Hoang Tu",
-            "email": "tuvo@pandavietnamsoftware.com"
+            "name": "HoangTu",
+            "email": "vohoangtu0409@gmail.com"
         }
     ],
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "require": {
-        "ext-json": "*",
-        "illuminate/collections": "*",
-        "illuminate/container": "*",
-        "illuminate/contracts": "*",
-        "illuminate/events": "*",
-        "illuminate/filesystem": "*",
-        "illuminate/macroable": "*",
-        "illuminate/support": "*",
+        "php": ">=7.2",
         "illuminate/view": "*"
     }
 }
