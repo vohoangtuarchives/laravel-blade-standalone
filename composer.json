@@ -1,5 +1,5 @@
 {
-    "name": "vohoangtu0409/laravel-blade-standalone",
+    "name": "tuezy/blade-standalone",
     "autoload": {
         "psr-4": {
             "Tuezy\\": "src/"
@@ -12,6 +12,14 @@
         }
     ],
     "require": {
-        "illuminate/view": "^8.83"
+        "ext-json": "*",
+        "illuminate/collections": "*",
+        "illuminate/container": "*",
+        "illuminate/contracts": "*",
+        "illuminate/events": "*",
+        "illuminate/filesystem": "*",
+        "illuminate/macroable": "*",
+        "illuminate/support": "*",
+        "illuminate/view": "*"
     }
 }

@@ -10,7 +10,7 @@ use Illuminate\Filesystem\Filesystem;
 use Illuminate\View\Compilers\BladeCompiler;
 use Illuminate\View\Factory;
 
-class View implements FactoryContract{
+class Blade implements FactoryContract{
 /**
      * @var Container
      */
